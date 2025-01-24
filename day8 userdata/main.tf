@@ -4,7 +4,7 @@ resource "aws_instance" "dev" {
     key_name = "keypair1"
     user_data = file("script.sh")
     tags = {
-      Name = "ec2"
+      Name = "ec02"
     }
 }
 
