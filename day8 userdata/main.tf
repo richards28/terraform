@@ -1,7 +1,7 @@
 resource "aws_instance" "dev" {
-    ami = " "
-    instance_type = " "
-    key_name = " "
+    ami = "ami-0fb04413c9de69305"
+    instance_type = "t2.micro"
+    key_name = "keypair2"
     user_data = file("script.sh")
     tags = {
       Name = "ec2"
